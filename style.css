@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --text-white: #ffffff;
+    --text-green:#5C9953;
+    --icons-color:#12822F;
+    --background: linear-gradient(180deg, rgba(113,182,102,1) 0%, rgba(137,206,124,1) 51%, rgba(161,231,147,1) 100%);
+    --backgroud-transparent:rgba(255, 255, 255, 0.082);
+    --background-box:#e7fccf;
+}
+
+#menu-toggle,
+.menu-label{
+    display: none;
+}
+
+body{
+    background: rgb(105,91,72);
+    background: linear-gradient(90deg, rgba(105,91,72,1) 0%, rgba(20,23,21,1) 100%);}
+
+.logo{
+
+width:150px;
+
+
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 170px;
+    padding: 0px 190px;
+    background: rgb(105,91,72);
+    background: linear-gradient(90deg, rgba(105,91,72,1) 0%, rgba(20,23,21,1) 100%);
+    justify-content: space-between;
+align-items: center;
+    
+}
+
+.hvr-icon{
+    width: 40px;
+}
+.hvr-icon-pulse{
+    color:#dfbf6e;
+    font-size: 2rem;
+}
+
+.navbar{
+    display: flex;
+    
+}
+
+.navbar_list{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.btn1{
+    color: #dfbf6e;
+    background-color: #262f31;
+    border-radius: 10px;
+    padding: 10px 17px;
+    font-size: 14px;
+}
+
+.buscar{
+   height: 40px;
+   border-radius: 10px;
+   border: none;
+   padding: 10px 30px;
+   outline: none;
+    border: 2px solid #262f31;
+}
+
+.buscador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.lupa{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+
+.text{
+    text-align: center;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.527);
+    backdrop-filter:blur(10px);
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
+padding: 16px;
+ font-size: 15px;   
+}
+
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#hero{
+display: flex;
+gap: 2rem;
+padding: 0px 50px; 
+
+align-items: center;
+}
+
+
+
+
+
+.title0{
+    font-size: 50px;
+    text-align: center;
+}
+
+.texto_presentacion h2{
+font-size: 20px;
+text-align: center;
+}
+
+.imagen{
+    margin-top: 20px;
+    
+}
+
+.imagen img{
+    width: 100%;
+    border-radius: 100px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.87);
+    
+}
+
+
+.caja_hero{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.caja_hero img{
+    width: 1230px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.87);
+    
+}
+
+
+
+.txt_hero{
+    position:absolute;
+    text-align: center;
+    max-width: 400px;
+    color: var(--text-green);
+    background: rgba(255, 255, 255, 0.527);
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 30px;
+    top: 110px;
+
+    
+}
+
+
+
+
+
+
+
+.cajas{
+display: flex;
+gap: 2rem;
+margin-top: 20px;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+flex-flow: wrap;
+}
+.oil{
+    width: 300px;
+    height: 200px;
+    border-radius: 200px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.87)
+}
+.crema{
+    width: 300px;
+    height: 200px;
+    border-radius: 180px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.87)
+}
+.gomitas{
+   
+    width: 300px;
+    height: 350px;
+    border-radius:400px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.87)
+}
+
+.gomita{
+    position: relative;
+}
+.icon_new{
+position: absolute;
+width: 65px;
+right: 10px;
+top: 10px;
+}
+
+.caja{
+    font-weight: 300;
+    align-items: center;
+    padding: 40px;
+    max-height: 530px;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #f0deec;
+    color: #a594a1;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.87), -2px 18px 81px 0px rgba(0,0,0,0.75) inset;;
+max-width: 400px;
+}
+
+.name{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.texto_caja{
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.price_btn{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background: #a594a1;
+    padding: 5px 10px;
+    color: var(--text-white);
+    border-radius: 10px;
+}
+
+.title2{
+    text-align: center;
+    margin-top: 27px;
+    background: rgba(255, 255, 255, 0.527);
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
+    margin: auto;
+    font-size: 20px;
+    padding: 13px;
+    border-radius: 10px;
+    color: var(--text-white);
+}
+
+
+
+
+
+
+.title0{
+        color: var(--text-white);
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        max-width: 650px;
+        margin: auto; 
+}
+
+.title1{
+    color: var(--text-white);
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    margin: auto; 
+}
+
+#card{
+    display: flex;
+    padding: 70px 0px;
+    gap: 200px;
+}
+
+#card h1{
+    color: #dfbf6e;
+    font-size: 70px;
+}
+
+#card h2{
+    color: #dfbf6e;
+    font-size: 30px;
+    text-decoration: overline;
+}
+
+#card p{
+    max-width: 500px;
+    color: var(--text-white);
+font-size: 20px;
+
+}
+
+.texto_card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   
+}
+
+.btn2{
+    color:var(--text-white);
+    background-color:#dfbf6e;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 50px;
+
+}
+
+.precio {
+    text-decoration: line-through;
+}
+
+.beneficios{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+   justify-content: center;
+   align-items: center;
+
+
+}
+
+.img_doctor{
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 700px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.87)
+}
+.beneficios p{
+    color: var(--text-white);
+    max-width: 500px;
+}
+.oil_img{
+    width:600px;
+}
+
+.txt_doctor{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
