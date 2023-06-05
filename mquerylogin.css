@@ -1,0 +1,27 @@
+@media screen and (max-width: 758px){
+    .login {
+        width: 620px;
+        height: 480px;
+        padding: 10px;
+    }  
+    .conteiner {
+        text-align: center;
+        justify-content: center;
+        align-items: center; }
+
+    .img{display: none;}
+
+    .login {
+        width: 400px;
+    }    
+    .presentacion {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 408px){
+.login{
+    width: 300px;
+}
+}
